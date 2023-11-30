@@ -62,7 +62,7 @@ header nav ul{
 
 header nav ul li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 60px;
 }
 
 .btn-contato button:hover{
@@ -78,13 +78,16 @@ section.topo-do-site{
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 10px;
 }
 
 .topo-do-site h1{
     color: #fff;
     font-size: 40px;
     line-height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 5%;
 }
 
 .topo-do-site .txt-topo-site h1 span{
@@ -93,11 +96,13 @@ section.topo-do-site .flex{
 
 .topo-do-site p{
     color: #fff;
-    margin: 40px 0;
+    margin: 40px 10px;
     font-size: 18px;
 }
 
 .topo-do-site .img-topo-site img{
+    margin: 0;
+    left: 30%;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 
@@ -110,4 +115,15 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* Estilização da pagina contato */
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
 }
